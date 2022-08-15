@@ -1,6 +1,6 @@
 /*------------TEXT LAYOUT------------*/
 body{
-    margin :20px;
+    margin :0 20px 0 20px;
     background-color:#F7ECDE;
     font-family: 'Merriweather', serif;
     padding-left : 20px;
@@ -42,6 +42,8 @@ p{
      
      font-size : 5.4rem; /*making it dynamic   1em = 16px */
      margin : 0 ;
+     padding-top:0;
+     padding-bottom: 0;
      font-family: 'Sacramento', cursive;
      color: #005555;
  
@@ -50,7 +52,7 @@ p{
 .major{
     font-size: 1rem;
     text-align: center;
-    margin : 5px ; 
+    margin :0 ; 
      
 }
 
@@ -106,20 +108,23 @@ border:20px;
 }
 
 .middle{
-    margin : 40px;
+margin : 40px;
 padding :20px;
 border:20px;
 }
 
 .bottom{
-    margin : 40px;
+margin : 40px;
 padding :20px;
 border:20px;
 }
 
 .media{
     list-style-type: none;
-    padding :30px 0 30px 0;
+    padding :0 0 80px 0;
+    margin-top:0;
+    margin-bottom:0;
+   
     
     
 }
@@ -127,14 +132,16 @@ border:20px;
 .media-col{
     position:fixed;
     
+    
 
     
 }
 .media-line{
-    orientation: left;
+    
     list-style-type: none;
     writing-mode: vertical-lr;
-    padding :30px 0 30px 0;
+    padding :0 0 30px 0;
+    
     
    
 }
