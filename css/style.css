@@ -166,8 +166,15 @@ border:20px;
 .fa-envelope{
     color: #044A42;
 }
+.fa-medium{
+    color: #044A42;
+}
 .cpy{
     text-align: center;
+}
+
+.topbar{
+    text-align: right;
 }
 
 
@@ -199,8 +206,6 @@ border:20px;
     padding: 10px;
   
 }
-
-
 
 
 .imgintro{
