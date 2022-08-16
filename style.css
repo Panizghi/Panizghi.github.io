@@ -1,0 +1,259 @@
+/*------------TEXT LAYOUT------------*/
+body{
+    margin :0 20px 0 20px;
+    background-color:#F7ECDE;
+    font-family: 'Montserrat', serif;
+    padding-left : 20px;
+    padding-right : 20px;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin : 0 auto 0 auto;
+    color: #069A8E;
+    padding: 20px;;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #069A8E;
+    margin : 0 auto 0 auto;
+    padding:20px;
+   
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #069A8E;
+    margin : 0 auto 0 auto;
+    padding :20px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin : 0 auto 0 auto;
+
+}
+
+.name{
+    text-align: center;
+     
+     font-size : 5.4rem; /*making it dynamic   1em = 16px */
+     margin : 0 ;
+     padding-top:0;
+     padding-bottom: 0;
+     font-family: 'Sacramento', cursive;
+     color: #005555;
+ 
+}
+
+.major{
+    font-size: 1rem;
+    text-align: center;
+    margin :0 ; 
+     
+}
+
+li{
+    list-style-type: none;
+    padding : 10px;    
+}
+
+.skill-col{
+    padding : 25px;
+    display: inline-block;
+    position:static;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.skill-col li{
+    list-style-type: circle;
+}
+
+.skill-row{
+position: static;
+border: 4px;
+padding-right: 20px;
+margin: auto;
+}
+
+
+
+
+
+.aboutmep{
+    
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: left;
+    
+}
+
+hr{
+    
+    border : dotted #005555 20px;
+    border-bottom: 0px;
+    width : 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+   
+
+
+}
+
+.top{
+margin : 20px 50px 20px 50px;
+padding :40px;
+border:30px;
+
+}
+
+.middle{
+margin : 20px;
+padding :40px;
+border:30px;
+}
+
+.bottom{
+    margin : 50px;
+    padding :40px;
+    border:30px;
+}
+
+.gal{
+
+   color: #044A42; 
+ margin : 50px;
+padding :40px;
+border:30px;
+}
+
+.last{
+    
+    margin : 50px;
+   padding :40px;
+   border:30px;
+   text-align: center;
+}
+
+.att{
+    
+    font-size: small;
+    color: #044A42; 
+}
+
+
+.media1{
+    list-style-type: none;
+    padding :0 0 40px 0;
+    margin : auto;  
+  
+}
+
+
+
+.media-col{
+    position:fixed;
+    bottom :0px;
+    
+}
+
+
+
+
+.fa-instagram{
+    color :#044A42;
+}
+
+.fa-linkedin-in{
+    color :#044A42;
+}
+.fa-github{
+    color :#044A42;
+}
+.fa-youtube{
+    color: #044A42;
+}
+.fa-envelope{
+    color: #044A42;
+    
+}
+.fa-medium{
+    color: #044A42;
+}
+.cpy{
+    text-align: center;
+}
+
+
+
+
+
+/*-----------PIC LAYOUT----------*/
+.animated{
+    height: 100%;
+    width: 100%;
+    max-height :650px;
+    max-width: 650px;
+    min-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.profilepic{
+    border-radius: 50%;
+    height: 250px;
+    width:250px;
+    display :block;
+    margin : 0 auto 0 auto;
+    padding: 10px;
+    float :right;
+  
+}
+
+
+.imgintro{
+
+    height :400px;
+    width: 400px;  
+    display :block;
+    margin : 0 auto;
+
+}
+
+#freepik_stories-coding{
+    min-width: 300px;
+    max-width :450px;
+    width :450px;
+    float :left;
+    display: block;
+    margin : 0px auto;
+ 
+}
+
+#freepik_stories-multitasking{
+    min-width: 300px;
+    max-width :450px;
+    width :450px;
+    float :right;
+    display: block;
+    margin : 0px auto;
+}
+
+.pic{
+    display :inline;
+    width :10%;
+    height :10;
+}
+
+
+
