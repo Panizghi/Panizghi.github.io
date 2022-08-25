@@ -95,9 +95,17 @@ margin: auto;
     
     line-height: 20px;
     padding: 0 20px;
-    text-align: left;
+    text-align: justify;
+    
     
 }
+#explain {
+    padding : 0 50px;
+    text-align: center;
+}
+
+
+
 
 .aboutmehead1{
     
@@ -161,7 +169,7 @@ border:30px;
 .exp{
 
 color: #044A42; 
- margin : 50px;
+ margin : 0;
 padding :40px;
 border:30px;
 }
@@ -262,6 +270,8 @@ bottom:0;
 
 
 
+
+
 /*-----------PIC LAYOUT----------*/
 .animated{
     height: 100%;
@@ -275,10 +285,14 @@ bottom:0;
 }
 
 .profpic{
-    width :180px;
-    height :180px;
-    border-radius : 50%;
-    margin : 0 auto;
+    width :250px;
+    height :250px;
+  border-radius: 50%;
+  padding : 20px;
+ 
+  
+  
+  
 
    
 }
