@@ -1,18 +1,19 @@
 /*------------TEXT LAYOUT------------*/
+
 body{
-    margin :0 20px 0 20px;
+
     background-color:#F7ECDE;
-    font-family: 'Montserrat', serif;
-    padding-left : 20px;
-    padding-right : 20px;
+    font-family: 'Montserrat', sans-serif;
+   
 
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
     margin : 0 auto 0 auto;
+   
     color: #069A8E;
-    padding: 20px;;
+    
 }
 
 h2{
@@ -46,13 +47,11 @@ p{
 }
 
 .name{
-    text-align: center;
+    
      
      font-size : 5.4rem; /*making it dynamic   1em = 16px */
-     margin : 0 ;
-     padding-top:0;
-     padding-bottom: 0;
      font-family: 'Sacramento', cursive;
+       margin : 0 auto 0 auto;
      color: #005555;
  
 }
@@ -100,14 +99,22 @@ margin: auto;
     
 }
 
-hr{
+.aboutmehead1{
     
-    border : dotted #005555 20px;
-    border-bottom: 0px;
-    width : 5%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: block;
+   font-family: 'Montserrat', sans-serif;
+   
+    margin : 0 auto 0 auto;
+    padding:20px;
+    color :#9ED2C6;
+    
+}
+
+.hline{
+    
+ border-top : 20px dotted #005555;
+  
+    width : 10%;
+ 
    
 
 
@@ -115,35 +122,55 @@ hr{
 
 .top{
 margin : 20px 50px 20px 50px;
-padding :40px;
+padding : 0 40px 40px  40px;
 border:30px;
 
 }
 
 .middle{
-margin : 20px;
+margin : 0;
 padding :40px;
 border:30px;
+background-color :#005555;
 }
 
 .bottom{
-    margin : 50px;
+    margin : 0;
     padding :40px;
     border:30px;
 }
 
-.gal{
+.gallery{
 
-   color: #044A42; 
+
+ background-color :#005555; 
+ margin : 0;
+padding :40px;
+border:30px;
+
+}
+
+#scrollspyHeading3{
+   font-family: 'Montserrat', sans-serif;
+   
+    margin : 0 auto 0 auto;
+    padding:20px;
+    color :#9ED2C6;
+}
+
+.exp{
+
+color: #044A42; 
  margin : 50px;
 padding :40px;
 border:30px;
 }
 
+
 .last{
     
-    margin : 50px;
-   padding :40px;
+    margin : 0;
+   padding :60px;
    border:30px;
    text-align: center;
 }
@@ -155,49 +182,83 @@ border:30px;
 }
 
 
-.media1{
-    list-style-type: none;
-    padding :0 0 40px 0;
-    margin : auto;  
-  
-}
-
-
-
-.media-col{
-    position:fixed;
-    bottom :0px;
-    
-}
-
-
-
-
 .fa-instagram{
     color :#044A42;
+ 
 }
 
 .fa-linkedin-in{
     color :#044A42;
+    
 }
 .fa-github{
     color :#044A42;
+    
 }
 .fa-youtube{
     color: #044A42;
+   
 }
 .fa-envelope{
     color: #044A42;
     
+    
 }
-.fa-medium{
-    color: #044A42;
+
+.media1{
+    padding-left : 20px;
 }
-.cpy{
-    text-align: center;
+
+.carousel {
+  width:640px;
+  height:360px;
 }
 
 
+.container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#miro.container {
+  position: relative;
+  width :100%;
+  height :550px;
+  max-width: 100vw;
+  max-height :65vw;
+  overflow: hidden;
+   /* 16:9 Aspect Ratio */
+  
+}
+
+.responsive-iframe {
+   
+  position: absolute;
+ 
+ 
+margin: auto;
+left: 0;
+right: 0;
+top:0;
+bottom:0;
+
+  width: 70%;
+  height: 70%;
+  border: none;
+
+}
 
 
 
@@ -217,16 +278,7 @@ border:30px;
 
 
 
-.profilepic{
-    border-radius: 50%;
-    height: 250px;
-    width:250px;
-    display :block;
-    margin : 0 auto 0 auto;
-    padding: 10px;
-    float :right;
-  
-}
+
 
 
 .imgintro{
@@ -238,15 +290,7 @@ border:30px;
 
 }
 
-#freepik_stories-coding{
-    min-width: 300px;
-    max-width :450px;
-    width :450px;
-    float :left;
-    display: block;
-    margin : 0px auto;
- 
-}
+
 
 #freepik_stories-multitasking{
     min-width: 300px;
@@ -254,14 +298,13 @@ border:30px;
     width :450px;
     float :right;
     display: block;
-    margin : 0px auto;
+    margin : 0 auto;
 }
 
-.pic{
-    display :inline;
-    width :10%;
-    height :10;
-}
+
+
+
+
 
 
 
