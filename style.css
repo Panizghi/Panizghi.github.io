@@ -274,7 +274,14 @@ bottom:0;
     margin-right: auto;
 }
 
+.profpic{
+    width :180px;
+    height :180px;
+    border-radius : 50%;
+    margin : 0 auto;
 
+   
+}
 
 
 
